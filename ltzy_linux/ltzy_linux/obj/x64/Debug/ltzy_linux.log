@@ -1,0 +1,123 @@
+﻿  Validating sources
+  Copying sources remotely to '202.193.58.110'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  main.cpp
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\message_struct.h(104,55): warning : conversion to ‘char’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\message_struct.h(104,55): warning :    message.content = new char(strlen(_t.message.content));
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\message_struct.h(104,55): warning :                                                        ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\message_struct.h(127,26): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\message_struct.h(127,26): warning :    int _len = head_length + strlen(message.content);
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\message_struct.h(127,26): warning :                           ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\thread_pool.h(80,38): warning : conversion to ‘int’ from ‘std::vector<std::thread>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\thread_pool.h(80,38): warning :    int thrCount() { return _pool.size(); }
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\thread_pool.h(80,38): warning :                                       ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(227,21): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(227,21): warning :   char *local_addr = "202.193.58.110";
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(227,21): warning :                      ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(359,83): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(359,83): warning :        int _recv_len = send(recvfd, sqlite_select_mess, _t_mess->protocol_length, 0);
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(359,83): warning :                                                                                    ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(359,11): warning : unused variable ‘_recv_len’ [-Wunused-variable]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(359,11): warning :        int _recv_len = send(recvfd, sqlite_select_mess, _t_mess->protocol_length, 0);
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(359,11): warning :            ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(424,40): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(424,40): warning :   for (int i = 0; i < read_clients.size(); i++) {
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(424,40): warning :                                         ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(445,35): warning : conversion to ‘int’ from ‘std::vector<ClientSock*>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(445,35): warning :   for (int j = read_clients.size() - 1; j >= 0; j--) {
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(445,35): warning :                                    ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(454,74): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(454,74): warning :      int recv_len = recv(cur_sockfd, sock_tmp_buf, sizeof(sock_tmp_buf), 0);
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(454,74): warning :                                                                           ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(646,84): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(646,84): warning :      int send_len = send(_send_sock, sock_send_sock, handle_mess->protocol_length, 0);
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(646,84): warning :                                                                                     ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(681,43): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(681,43): warning :     for (int _i = 0; _i < lt_room_ips.size(); _i++) {
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(681,43): warning :                                            ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(719,85): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(719,85): warning :       int send_len = send(_send_sock, sock_send_sock, handle_mess->protocol_length, 0);
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(719,85): warning :                                                                                      ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(776,38): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(776,38): warning :   if (handle_mess->message.content == "" || strlen(handle_mess->message.content) == 0) {
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(776,38): warning :                                       ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(783,40): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(783,40): warning :   if (handle_mess->message.send_time == "" || strlen(handle_mess->message.send_time) == 0) {
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(783,40): warning :                                         ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(791,36): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(791,36): warning :   if (handle_mess->from.username == "" || strlen(handle_mess->from.username) == 0) {
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(791,36): warning :                                     ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(797,35): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(797,35): warning :   if (handle_mess->from.user_ip == "" || strlen(handle_mess->from.user_ip) == 0) {
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(797,35): warning :                                    ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(806,34): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(806,34): warning :   if (handle_mess->to.username == "" || strlen(handle_mess->to.username) == 0) {
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(806,34): warning :                                   ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(812,33): warning : comparison with string literal results in unspecified behaviour [-Waddress]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(812,33): warning :   if (handle_mess->to.user_ip == "" || strlen(handle_mess->to.user_ip) == 0) {
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\main.cpp(812,33): warning :                                  ^
+  my_utils.cpp
+  sqlite_lib.cpp
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\message_struct.h(104,55): warning : conversion to ‘char’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\message_struct.h(104,55): warning :    message.content = new char(strlen(_t.message.content));
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\message_struct.h(104,55): warning :                                                        ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\message_struct.h(127,26): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\message_struct.h(127,26): warning :    int _len = head_length + strlen(message.content);
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\message_struct.h(127,26): warning :                           ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(36,43): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(36,43): warning :   int potocol_length = _t_mess.head_length + strlen(argv[2]);  // ���������ܳ���
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(36,43): warning :                                            ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(54,25): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(54,25): warning :   sqlite_select_mess_len += strlen(argv[2]);
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(54,25): warning :                          ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(62,10): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(62,10): warning :   sql_chs = "CREATE TABLE pst_mess("  \
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(62,10): warning :           ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(83,10): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(83,10): warning :   sql_chs = "CREATE TABLE tmp_mess("  \
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(83,10): warning :           ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(144,10): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(144,10): warning :   sql_chs = "UPDATE tmp_record set send_time = '2020-3-6' where ID=1; ";
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(144,10): warning :           ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(162,15): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(162,15): warning :   char *data = "DELETE DATA";
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(162,15): warning :                ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(192,42): warning : ‘sql_chs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(192,42): warning :   create_table(sql_chs, sqlit_db, zErrMsg);
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\sqlite_lib.cpp(192,42): warning :                                           ^
+  thread_pool.h
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\thread_pool.h(1,9): warning : #pragma once in main file [enabled by default]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\thread_pool.h(1,9): warning :  #pragma once
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\thread_pool.h(1,9): warning :          ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\thread_pool.h(80,38): warning : conversion to ‘int’ from ‘std::vector<std::thread>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\thread_pool.h(80,38): warning :    int thrCount() { return _pool.size(); }
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\thread_pool.h(80,38): warning :                                       ^
+  utils.cpp
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(38,43): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(38,43): warning :   for (int i = 0; i < clearText.length() / 8; i++)
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(38,43): warning :                                            ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(50,37): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(50,37): warning :    int tmp1 = clearText.length() / 8 * 8;
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(50,37): warning :                                      ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(51,33): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(51,33): warning :    int tmp2 = clearText.length() - tmp1;
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(51,33): warning :                                  ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(89,44): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(89,44): warning :   for (int i = 0; i < cipherText.length() / 8; i++)
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(89,44): warning :                                             ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(101,38): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(101,38): warning :    int tmp1 = cipherText.length() / 8 * 8;
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(101,38): warning :                                       ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(102,34): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(102,34): warning :    int tmp2 = cipherText.length() - tmp1;
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(102,34): warning :                                   ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(153,31): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(153,31): warning :   for (int i = 0; i < strlen(_s); i++) {
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(153,31): warning :                                ^
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(186,31): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(186,31): warning :   for (int i = 0; i < strlen(_s); i++) {
+D:\Code\vs2017project\ltzy_linux\ltzy_linux\utils.cpp(186,31): warning :                                ^
+  Linking objects
+  ltzy_linux.vcxproj -> D:\Code\vs2017project\ltzy_linux\ltzy_linux\bin\x64\Debug\ltzy_linux.out

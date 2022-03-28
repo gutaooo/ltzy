@@ -1,0 +1,59 @@
+﻿  Validating sources
+  Copying sources remotely to '202.193.58.110'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  client_linux.cpp
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\message_struct.h(104,55): warning : conversion to ‘char’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\message_struct.h(104,55): warning :    message.content = new char(strlen(_t.message.content));
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\message_struct.h(104,55): warning :                                                        ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\message_struct.h(127,26): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\message_struct.h(127,26): warning :    int _len = head_length + strlen(message.content);
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\message_struct.h(127,26): warning :                           ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\client_linux.cpp(41,16): warning : deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\client_linux.cpp(41,16): warning :  char *ip_str = "202.193.58.110";
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\client_linux.cpp(41,16): warning :                 ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\client_linux.cpp(120,33): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\client_linux.cpp(120,33): warning :    for (int i = 0; i < _s.length(); i++) {
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\client_linux.cpp(120,33): warning :                                  ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\client_linux.cpp(179,70): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\client_linux.cpp(179,70): warning :    send_len = send(sendfd, sock_send_sock, cli_mess.protocol_length, 0);
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\client_linux.cpp(179,70): warning :                                                                       ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\client_linux.cpp(196,68): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\client_linux.cpp(196,68): warning :    int recv_len = recv(sendfd, sock_tmp_buf, sizeof(sock_tmp_buf), 0);
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\client_linux.cpp(196,68): warning :                                                                     ^
+  recv_server.cpp
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\message_struct.h(104,55): warning : conversion to ‘char’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\message_struct.h(104,55): warning :    message.content = new char(strlen(_t.message.content));
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\message_struct.h(104,55): warning :                                                        ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\message_struct.h(127,26): warning : conversion to ‘int’ from ‘size_t {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\message_struct.h(127,26): warning :    int _len = head_length + strlen(message.content);
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\message_struct.h(127,26): warning :                           ^
+  redis_lib.cpp
+  utils.cpp
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(38,43): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(38,43): warning :   for (int i = 0; i < clearText.length() / 8; i++)
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(38,43): warning :                                            ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(50,37): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(50,37): warning :    int tmp1 = clearText.length() / 8 * 8;
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(50,37): warning :                                      ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(51,33): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(51,33): warning :    int tmp2 = clearText.length() - tmp1;
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(51,33): warning :                                  ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(89,44): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(89,44): warning :   for (int i = 0; i < cipherText.length() / 8; i++)
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(89,44): warning :                                             ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(101,38): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(101,38): warning :    int tmp1 = cipherText.length() / 8 * 8;
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(101,38): warning :                                       ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(102,34): warning : conversion to ‘int’ from ‘std::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(102,34): warning :    int tmp2 = cipherText.length() - tmp1;
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(102,34): warning :                                   ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(153,31): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(153,31): warning :   for (int i = 0; i < strlen(_s); i++) {
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(153,31): warning :                                ^
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(186,31): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(186,31): warning :   for (int i = 0; i < strlen(_s); i++) {
+D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\utils.cpp(186,31): warning :                                ^
+  Linking objects
+  ltzy_client_linux.vcxproj -> D:\Code\vs2017project\ltzy_client_linux\ltzy_client_linux\bin\x64\Debug\ltzy_client_linux.out

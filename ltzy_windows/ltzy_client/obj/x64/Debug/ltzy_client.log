@@ -1,0 +1,46 @@
+﻿  client_main.cpp
+d:\code\vs2017project\ltzy_windows\ltzy_client\encode.h(125): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\message_struct.h(104): warning C4267: “初始化”: 从“size_t”转换到“char”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\message_struct.h(127): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\client_main.cpp(230): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  encode.cpp
+  openssl_aes.cpp
+d:\code\vs2017project\ltzy_windows\ltzy_client\message_struct.h(104): warning C4267: “初始化”: 从“size_t”转换到“char”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\message_struct.h(127): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(38): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(45): warning C4474: printf: 格式字符串中传递的参数太多
+  d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(45): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(46): warning C4474: printf: 格式字符串中传递的参数太多
+  d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(46): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(76): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(78): warning C4474: printf: 格式字符串中传递的参数太多
+  d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(78): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(79): warning C4474: printf: 格式字符串中传递的参数太多
+  d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(79): note: 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(111): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(134): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(122): warning C4101: “key1”: 未引用的局部变量
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(160): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(160): note: 请考虑在格式字符串中使用“%zd”
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(168): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(168): note: 请考虑在格式字符串中使用“%zd”
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(176): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(176): note: 请考虑在格式字符串中使用“%zd”
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(183): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+  d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(183): note: 请考虑在格式字符串中使用“%zd”
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(184): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(184): note: 请考虑在格式字符串中使用“%zd”
+d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(188): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+  d:\code\vs2017project\ltzy_windows\ltzy_client\openssl_aes.cpp(188): note: 请考虑在格式字符串中使用“%zd”
+  utils.cpp
+d:\code\vs2017project\ltzy_windows\ltzy_client\utils.cpp(53): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\utils.cpp(54): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\utils.cpp(104): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\utils.cpp(105): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\utils.cpp(144): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\utils.cpp(174): warning C4267: “参数”: 从“size_t”转换到“long”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\utils.cpp(224): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\utils.cpp(225): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+d:\code\vs2017project\ltzy_windows\ltzy_client\utils.cpp(266): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+  ltzy_client.vcxproj -> D:\Code\vs2017project\ltzy_windows\ltzy_client\bin\x64\Debug\ltzy_client.exe
